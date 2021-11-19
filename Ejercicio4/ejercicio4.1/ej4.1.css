@@ -1,0 +1,7 @@
+.zeros{
+    list-style: decimal-leading-zero;
+}
+table{
+    border-collapse:separate;
+    border-spacing: 15px;
+}
