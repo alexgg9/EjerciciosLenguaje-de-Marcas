@@ -1,0 +1,30 @@
+table{
+    border-collapse:collapse;
+}
+td{
+    text-align: left;
+}
+.nombre{
+    background-color: #B1B0AD;
+    height: 40px;
+}
+.departamento{
+    background-color: #B1B0AD;
+    height: 40px;
+}
+.requisitos{
+    background-color: #B1B0AD;
+}
+.hora{
+    background-color: #B1B0AD;
+    height: 40px;
+}
+td{
+    width: 50%;
+}
+form.radio{
+    text-align: center;
+}
+.checkbox{
+    text-align: center;
+}

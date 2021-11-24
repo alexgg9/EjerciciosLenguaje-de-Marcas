@@ -1,0 +1,10 @@
+table{
+    height: 190px;
+    
+}
+td {
+    width:100px;
+    vertical-align: text-top;
+    font-weight: bold;
+}
+

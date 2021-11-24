@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ex4.css" rel="stylesheet" type="text/css">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <h1>Reservation Request</h1>
+    <div class="contenido">
+        <div class="estilo">
+            <form>
+                <fieldset>
+                    <legend>General Information</legend>
+                        <div class="general">
+                        <label for="date">Arrival date:</label>
+                            <input type="date" id="date">
+                        </div>
+
+                        <div class="general">
+                        <label for="nights">Nights:</label>
+                            <input type="text" id="nights">
+                        </div>
+
+                        <div class="general">
+                        <label>Adults:</label><select name="adult">
+                            <option value="adult1" selected>1</option>
+                            <option value="adult2">2</option>
+                            <option value="adult3">3</option>
+                            </select>
+                        </div>
+
+                        <div class="general">
+                            <br>
+                            <label>Childrens:</label><select name="child">
+                            <option value="child1" selected>1</option>
+                            <option value="child2">2</option>
+                            <option value="child3">3</option>
+                            </select>
+                        </div>    
+                </fieldset>
+                        <br>
+                <fieldset>
+                    <legend>Preferences</legend>
+                        <div class="casillas">
+                            <label>Room type:</label>
+                            <input type="radio"><label>Standard</label>
+                            <input type="radio"><label>Business</label>
+                            <input type="radio"><label>Suite</label><br>
+                        </div>
+                        <div class="casillas">
+                            <label>Bed type:</label>
+                            <input type="radio"><label>King</label>
+                            <input type="radio"><label>Double Double</label><br>
+                        </div>
+                        <div class="casillas">
+                            <input type="checkbox"><label>Smoking</label>
+                        </div>
+
+
+                </fieldset>
+                        <br>
+                <fieldset>
+
+                    <legend>Contact Information</legend>
+                        <div class="contacto">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name"><br>
+                        </div>
+                        <div class="contacto">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email"><br>
+                        </div>  
+                        <div class="contacto">
+                            <label for="phone">Phone:</label>
+                            <input type="number" id="phone"><br>
+                        </div>
+                </fieldset>
+
+    <button class="boton1"><p>Submit Reservation</p></button>  <button class="boton2"><p>Clear</p></button>
+    </form>
+    </div>
+</div>
+</body>
+</html>
