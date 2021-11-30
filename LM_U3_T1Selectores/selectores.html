@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<link href="selectores.css" rel="stylesheet" type="text/css">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Selectores</title>
+</head>
+
+<body>
+
+<h1>Ejercicio práctico con Tablas</h1>
+
+<table>
+  
+  <tr>
+    <th></th>
+    <th abbr="Reproductor mini" scope="col" colspan="3"">
+      <img src="imagenes/mp3_pequeno_blanco.png" alt="Imagen del reproductor MP3 pequeño de color blanco" />
+      <img src="imagenes/mp3_pequeno_negro.png" alt="Imagen del reproductor MP3 pequeño de color negro" />
+      <br/><strong>MP3 mini</strong>
+    </th>
+    <th abbr="Reproductor estándar" scope="col" colspan="2">
+      <img src="imagenes/mp3_grande_blanco.png" alt="Imagen del reproductor MP3 grande de color blanco" />
+      <img src="imagenes/mp3_grande_negro.png" alt="Imagen del reproductor MP3 grande de color negro" />
+      <br/><strong>MP3 grande</strong>
+    </th>
+  </tr>
+
+  <tr  id="gris">
+    <th class="roja" scope="row" abbr="Capacidad">Capacidad de almacenamiento</th>
+      <td>4GB <br/> </td>
+      <td>8GB <br/> </td>
+      <td>16GB <br/> </td>
+      <td>30GB <br/> </td>
+      <td>80GB <br/> </td>
+    </tr>
+
+  <tr id="listas">
+    <th class="roja" scope="row" abbr="Colores disponibles">Colores</th>
+    <td>
+      <p>Blanco</p>
+    </td>
+    <td>
+      <ul>
+        <li>Negro</li>
+        <li>Rosa</li>
+        <li>Dorado</li>
+      </ul>
+    </td>
+    <td>Negro</td>
+    <td colspan="2">
+      <ul>
+        <li>Negro</li>
+        <li>Blanco</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <th class="roja" scope="row" abbr="Tamaño de pantalla">Pantalla</th>
+    <td colspan="3">3 PULGADAS</td>
+    <td colspan="2">7 PULGADAS</td>
+  </tr>
+
+  <tr>
+    <th class="roja" rowspan="2" scope="row" abbr="Tiempo de carga">Tiempo de carga</th>
+    <td rowspan="2" colspan="3">1 Hora</td>
+    <td colspan="2" id="amarillo">5 Horas</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">30 minutos para el 75%</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
