@@ -1,0 +1,65 @@
+
+/*Ej1*/
+/*background-color poner color a todo el cuerpo de nuestro HTML*/
+/*Ej6*/
+body { background-color: aqua;
+       background-image:url(jabber2.gif);
+       background-size: 25%;
+       background-repeat: no-repeat;
+       background-position-x: right;
+       background-position-y: center;
+       
+
+}
+/*Esta etiqueta cambia el tamaño de la letra del Heading 1 y le cambia de color*/
+/*Headers*/
+/*Ej7*/
+h1 {
+    color:maroon;font-size:20pt;
+    padding: 10px 10px 10px 10px; 
+    background-color: white;
+    border-style: groove double;
+    border-color: blue;
+    border-width: 10px;
+    text-align: center;
+    margin-right: 500px;
+    background-image: url(backtitle.gif);
+}
+h2 {color:maroon;}
+
+/*Le cambia el color a las líneas del hr*/
+/*Ej5*/
+hr {color:navy; size: 10px;
+    
+}
+
+/*Paragraphs*/
+/*Les cambia el tamaño de la fuente, les deja 15px de margen a la izquierda.
+Y ha p.verse le pone un color marron y le 60px de margen a la izquierda.*/
+p {font-size:12pt; margin-left: 15px; color:maroon;}
+p.verse {color:maroon; margin-left: 60px}
+p.comment {color: gray;}
+
+/* Divs */
+:div.reference {
+    color:slategray; 
+    margin-left: 40px;
+}
+
+/*Links*/
+a:link     {color:green}/*Le da color al enlace*/
+a:visited  {color:yellow}/*Le da color al enlace que un usuario ha visitado*/
+a:hover    {color:black}/*Le da color cuando el usuario coloca el cursor sobre el enlace*/
+a:active   {color:blue}/*Le da color cuando le das click al enlace*/
+
+/*ej2*
+Son diferentes los dos primero parrafos a los cinco últimos, porque en el css los dos primeros tienen diferente color y más margen a la izquierda.
+Simplemente añadiendole la clase verse a los demás parrafos se cambia.*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+
