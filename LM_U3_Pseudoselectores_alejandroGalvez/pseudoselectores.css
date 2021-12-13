@@ -1,0 +1,32 @@
+table{
+    width: 650px;
+    border-collapse: collapse;
+}
+tr td:first-of-type{
+    background-color: green;
+}
+a:link{
+    text-decoration: none;
+    color: green;
+}
+a:visited, a:active{
+    text-decoration: none;
+    color:red;
+}
+td[colspan="5"]{
+    background-color: yellow;
+}
+tr td:last-of-type:hover{
+    font-size: 30px;
+}
+th::first-letter{
+    font-size: 150%;
+}
+label::after{
+    content: "*";
+    color: red;
+}
+input:enabled{
+    border:1px solid red;
+    padding: 5px;
+}
