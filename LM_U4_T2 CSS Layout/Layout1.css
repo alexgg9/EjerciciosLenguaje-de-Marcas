@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box; 
+}
+header {
+    background-color: #495C4B;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 300px;
+
+}
+#logo{
+    width: 100px;
+    height: 80pxpx;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+    
+}
+#logo img{
+    width: 100px;
+    height: 80px
+}
+#info{
+    margin-right: 200px;
+    height: 440px;
+    width: 700px
+}
+article{
+    padding: 30px;
+    text-align: justify;
+    display: flex;
+    font-size: 20px;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: #D8BE60;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+}
+
+.cabecera{
+    background-color: #495C4B;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    text-align: center;    
+}
+.formulario{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+}
+form{
+    margin-top: 0px;
+    background-color: gray;
+    padding: 20px;
+}
+
