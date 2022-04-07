@@ -1,0 +1,24 @@
+.main-article-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.main.article-category,.author-name:hover{
+    color: black;
+}
+.main-article-title:hover{
+    color: #42D3FC;
+}
+.main-article-category:hover,.main-article-title:hover,.author.name{
+    text-decoration: underline;
+}
+.foto{
+    overflow: hidden;
+}
+.img-responsive{
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.img-responsive:hover{
+    transform: scale(1.2);
+}
